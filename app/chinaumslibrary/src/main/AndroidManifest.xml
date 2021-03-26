@@ -14,7 +14,7 @@
     <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
 
     <application>
-        <meta-data     android:name="PPPaySDK"     android:value="true" />
-        <meta-data     android:name="CurrentEnvironment"     android:value="PROD" />
+        <meta-data android:name="PPPaySDK" android:value="true"/>
+        <meta-data android:name="CurrentEnvironment" android:value="PROD"/>
     </application>
 </manifest>
