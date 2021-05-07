@@ -13,7 +13,8 @@ import java.util.Map;
 public class ChinaUMS extends ThirdPartyCallback {
     private UnifyPayPlugin payPlugin;
 
-    public ChinaUMS(Activity activity){
+    public ChinaUMS(Activity activity, String className){
+        super(className);
         mActivity = activity;
 
         payPlugin = UnifyPayPlugin.getInstance(mActivity);
